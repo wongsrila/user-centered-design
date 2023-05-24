@@ -66,22 +66,23 @@ import Cropper from 'cropperjs';
 
 const image = document.getElementById('image');
 const rotateBtn = document.querySelector('.rotate-btn');
+const ratioTwo = document.querySelector('.ratio2');
+
 let cmd = {};
 
 const cropper = new Cropper(image, {
-  aspectRatio: 1 / 1,
-  crop(event) {
-    console.log(event.detail.x);
-    console.log(event.detail.y);
-    console.log(event.detail.width);
-    console.log(event.detail.height);
-    console.log(event.detail.rotate);
-    console.log(event.detail.scaleX);
-    console.log(event.detail.scaleY);
-  },
-  // modal: true,
-  // guides: true,
-  // rotatable: true,
+  viewMode: 1,
+  center: true,
+  autoCrop: false,
+  // crop(event) {
+  //   console.log(event.detail.x);
+  //   console.log(event.detail.y);
+  //   console.log(event.detail.width);
+  //   console.log(event.detail.height);
+  //   console.log(event.detail.rotate);
+  //   console.log(event.detail.scaleX);
+  //   console.log(event.detail.scaleY);
+  // },
   ready() {
     cmd = {
       'zoom in': () => {
@@ -99,8 +100,33 @@ const cropper = new Cropper(image, {
       'rotate twice': () => {
         this.cropper.rotate(90);
       },
+
+      'move right': () => {
+        this.cropper.move(-20, 0);
+      },
+      'move left': () => {
+        this.cropper.move(20, 0);
+      },
+
+      'flip horizontal': () => {
+        this.cropper.scale(-1, 1);
+      },
+      'flip vertical': () => {
+        this.cropper.scale(1, -1);
+      },
+      'flip reset': () => {
+        this.cropper.scale(1);
+      },
+
+      reset: () => {
+        this.cropper.reset();
+      },
+
+      'start editing': () => {
+        this.cropper.crop();
+      },
     };
     // And then
-    this.cropper.crop();
+    // this.cropper.crop();
   },
 });
