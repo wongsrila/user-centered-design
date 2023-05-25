@@ -71,6 +71,10 @@ window.addEventListener('DOMContentLoaded', function () {
   var avatar = document.getElementById('avatar');
   var image = document.getElementById('image');
   var input = document.getElementById('input');
+  // var rotateBtn = document.getElementById('rotateBtn');
+  // var zoomInBtn = document.getElementById('zoomInBtn');
+  // var zoomOutBtn = document.getElementById('zoomOutBtn');
+
   var $progress = $('.progress');
   var $progressBar = $('.progress-bar');
   var $alert = $('.alert');
@@ -129,10 +133,6 @@ window.addEventListener('DOMContentLoaded', function () {
               this.cropper.rotate(45);
             },
 
-            'rotate twice': () => {
-              this.cropper.rotate(90);
-            },
-
             'move right': () => {
               this.cropper.move(-20, 0);
             },
@@ -154,6 +154,23 @@ window.addEventListener('DOMContentLoaded', function () {
               this.cropper.reset();
             },
           };
+          document
+            .querySelector('#rotateBtn')
+            .addEventListener('click', function () {
+              cropper.rotate(45);
+            });
+
+          document
+            .querySelector('#zoomInBtn')
+            .addEventListener('click', function () {
+              cropper.zoom(0.1);
+            });
+
+          document
+            .querySelector('#zoomOutBtn')
+            .addEventListener('click', function () {
+              cropper.zoom(-0.1);
+            });
         },
       });
     })

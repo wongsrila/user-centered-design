@@ -100,3 +100,9 @@ Test het hele proces van het selecteren, bewerken en posten van een foto. Hoe ma
 #### Feedback:
 
 Vraag Eric naar zijn algemene ervaring met de app. Wat vindt hij prettig? Wat zou hij verbeterd willen zien?
+
+## Bronnen
+
+[https://github.com/fengyuanchen/cropperjs/blob/main/README.md](https://github.com/fengyuanchen/cropperjs/blob/main/README.md)
+[https://code-boxx.com/voice-commands-javascript-speech-recognition/](https://code-boxx.com/voice-commands-javascript-speech-recognition/)
+[https://exclusive-design.vasilis.nl/](https://exclusive-design.vasilis.nl/)

@@ -23,28 +23,11 @@
     <button class="crop-btn">crop</button> -->
 
     <div class="container">
-      <h1>Upload cropped image to server</h1>
-      <p>
-        Please note that the image will be uploaded to a
-        <a href="https://jsonplaceholder.typicode.com/"
-          >third-party fake API server</a
-        >, which means that the upload process will sometimes fail.
-      </p>
+      <h1>Image editor</h1>
+      <p>Upload Image & edit with speech recognition</p>
       <label class="label" data-toggle="tooltip" title="Upload your image">
-        <!-- <img
-          class="rounded"
-          id="avatar"
-          src="https://avatars0.githubusercontent.com/u/3456749?s=160"
-          alt="avatar"
-        /> -->
         <a>Upload your image</a>
-        <input
-          type="file"
-          class="sr-only"
-          id="input"
-          name="image"
-          accept="image/*"
-        />
+        <input type="file" id="input" name="image" accept="image/*" />
       </label>
       <div class="alert" role="alert"></div>
       <div
@@ -75,13 +58,28 @@
                   src="https://avatars0.githubusercontent.com/u/3456749"
                 />
               </div>
+              <button type="button" class="btn btn-primary" id="rotateBtn">
+                Rotate
+              </button>
+              <button type="button" class="btn btn-primary" id="zoomInBtn">
+                Zoom In
+              </button>
+              <button type="button" class="btn btn-primary" id="zoomOutBtn">
+                Zoom Out
+              </button>
             </div>
             <div id="result" class="img-container">
               <img />
             </div>
             <div class="modal-footer">
               <div id="vwrap"></div>
-              <input type="button" id="vbtn" value="Loading" disabled />
+              <input
+                type="button"
+                class="btn btn-primary"
+                id="vbtn"
+                value="Loading"
+                disabled
+              />
               <button
                 type="button"
                 class="btn btn-secondary"
