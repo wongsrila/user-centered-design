@@ -47,16 +47,16 @@ Een makkelijke manier om Eric en anderen die moeite hebben met bewegen te helpen
 
 ### Study situation
 
-Begin met het begrijpen van Eric's specifieke situatie, zijn behoeften en uitdagingen bij het gebruik van social media en andere communicatieplatforms. Hoe gebruikt hij deze apps? Waar loopt hij tegenaan? Wat werkt er goed voor hem en wat niet? Dit kan onder meer worden bereikt door observatie, interviews en andere vormen van gebruikersonderzoek.
+Ik begin met het begrijpen van Eric's specifieke situatie, zijn behoeften en uitdagingen bij het gebruik van social media en andere communicatieplatforms. Ik vraag mezelf af: Hoe gebruikt hij deze apps? Waar loopt hij tegenaan? Wat werkt er goed voor hem en wat niet? Om dit te achterhalen, ga ik observeren, interviews houden en andere vormen van gebruikersonderzoek uitvoeren. Mijn doel is om een duidelijk beeld te krijgen van zijn ervaringen, zodat ik oplossingen kan bedenken die zijn interactie met deze platforms verbeteren en vergemakkelijken.
 
 ### Ignore conventions
 
-Als je eenmaal begrijpt hoe Eric deze apps gebruikt en waar de problemen liggen, overweeg dan of de huidige ontwerpnormen en conventies van deze platforms echt werken voor Eric. Zijn er conventies die het moeilijk voor hem maken om te communiceren zoals hij dat wil? Als dat zo is, aarzel dan niet om die conventies te negeren en iets nieuws te proberen.
+Als ik eenmaal begrijp hoe Eric deze apps gebruikt en waar de problemen liggen, overweeg ik of de huidige ontwerpnormen en conventies van deze platforms echt werken voor Eric. Zijn er conventies die het moeilijk voor hem maken om te communiceren zoals hij dat wil?
 
 ### Prioritise identity
 
-Betrek Eric actief in het ontwerpproces. Ontwerp niet alleen voor hem, maar ook met hem. Dit kan betekenen dat je prototypes maakt en deze met Eric test, zijn feedback en ideeën opneemt en het ontwerp iteratief aanpast op basis van zijn input.
+Betrek Eric actief in het ontwerpproces. Ontwerp niet alleen voor hem, maar ook met hem. Dit kan betekenen dat ik de prototypes maakt en deze met Eric test, zijn feedback en ideeën opneemt en het ontwerp iteratief aanpast op basis van zijn input.
 
 ### Add nonsense
 
-Probeer op een hoger conceptueel niveau te denken dan alleen functionaliteit. Dit kan betekenen dat je speelse, verrassende of anderszins niet-standaard elementen aan de interface toevoegt die Eric misschien plezierig, interessant of nuttig vindt. Dit kan ook betekenen dat je nieuwe en innovatieve manieren bedenkt om Eric te helpen communiceren op de manier die hij wil.
+Probeer verder te denken dan alleen functionaliteit. Dit kan betekenen dat ik speelse, verrassende of anderszins niet-standaard elementen aan de interface kan toevoegen die Eric misschien interessant of nuttig vindt. Dit kan ook betekenen dat ik nieuwe en innovatieve manieren bedenk om Eric te helpen communiceren op de manier die hij wil.
