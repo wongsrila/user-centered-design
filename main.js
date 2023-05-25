@@ -111,11 +111,10 @@ window.addEventListener('DOMContentLoaded', function () {
       cropper = new Cropper(image, {
         viewMode: 1,
         center: true,
-        autoCrop: false,
-        crop(event) {
-          result.innerHTML = '';
-          result.appendChild(cropper.getCroppedCanvas());
-        },
+        // crop(event) {
+        //   result.innerHTML = '';
+        //   result.appendChild(cropper.getCroppedCanvas());
+        // },
         ready() {
           cmd = {
             'zoom in': () => {
@@ -153,10 +152,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
             reset: () => {
               this.cropper.reset();
-            },
-
-            'start editing': () => {
-              this.cropper.crop();
             },
           };
         },

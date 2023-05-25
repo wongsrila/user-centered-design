@@ -60,3 +60,43 @@ Betrek Eric actief in het ontwerpproces. Ontwerp niet alleen voor hem, maar ook 
 ### Add nonsense
 
 Probeer verder te denken dan alleen functionaliteit. Dit kan betekenen dat ik speelse, verrassende of anderszins niet-standaard elementen aan de interface kan toevoegen die Eric misschien interessant of nuttig vindt. Dit kan ook betekenen dat ik nieuwe en innovatieve manieren bedenk om Eric te helpen communiceren op de manier die hij wil.
+
+## Testplan
+
+### Doel:
+
+Het doel van dit testplan is om te controleren of de nieuwe functies van de app, met name de stemcommando's voor foto-editing en de grotere bedieningsknoppen, goed werken en daadwerkelijk bijdragen aan het verbeteren van Eric's ervaring.
+
+### Testproces:
+
+#### Introductie:
+
+Leg aan Eric uit wat het doel van de test is en wat er van hem verwacht wordt.
+
+#### Navigatie:
+
+Vraag Eric om door de app te navigeren en opmerkingen te maken over de grootte en plaatsing van de knoppen. Zijn ze nu gemakkelijker te gebruiken?
+
+#### Stemcommando's:
+
+Vraag Eric om elke stemcommando te testen:
+
+1. Zoom in
+2. Zoom uit
+3. rotate/rotate twice
+4. Move left/right/up/down
+5. flip horizontal/vertical
+
+Kijk of de app elke opdracht correct uitvoert en hoe comfortabel Eric is met het gebruik van deze opdrachten.
+
+#### Combinatie van stemcommando's en knoppen:
+
+Vraag Eric om een foto te bewerken met behulp van zowel de stemcommando's als de knoppen. Hoe ervaart hij de overgang tussen de twee?
+
+#### Uploaden en Posten:
+
+Test het hele proces van het selecteren, bewerken en posten van een foto. Hoe makkelijk vindt Eric dit?
+
+#### Feedback:
+
+Vraag Eric naar zijn algemene ervaring met de app. Wat vindt hij prettig? Wat zou hij verbeterd willen zien?
