@@ -16,7 +16,7 @@ Een makkelijke manier om Eric en anderen die moeite hebben met bewegen te helpen
 
 ## User scenario
 
-### Actor:
+### Persona:
 
 Eric, een enthousiaste gebruiker van sociale media, die moeite heeft met fijne motoriek.
 
