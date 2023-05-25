@@ -42,3 +42,21 @@ Eric heeft met enige moeite een foto kunnen posten op zijn favoriete sociale med
 ## Oplossing
 
 Een makkelijke manier om Eric en anderen die moeite hebben met bewegen te helpen, is door gebruik te maken van stemherkenning. Dit betekent dat ze tegen de app kunnen praten om dingen te doen, zoals het bewerken van foto's. Hiermee kan Eric gewoon zeggen wat hij wil doen, zoals een foto kiezen, deze bewerken en vervolgens plaatsen, zonder dat hij iets hoeft aan te raken. Deze oplossing maakt de app veel makkelijker te gebruiken voor mensen zoals Eric. Het helpt niet alleen mensen met bewegingsproblemen, maar kan het gebruik van de app ook makkelijker maken voor iedereen.
+
+## Exclusive design
+
+### Study situation
+
+Begin met het begrijpen van Eric's specifieke situatie, zijn behoeften en uitdagingen bij het gebruik van social media en andere communicatieplatforms. Hoe gebruikt hij deze apps? Waar loopt hij tegenaan? Wat werkt er goed voor hem en wat niet? Dit kan onder meer worden bereikt door observatie, interviews en andere vormen van gebruikersonderzoek.
+
+### Ignore conventions
+
+Als je eenmaal begrijpt hoe Eric deze apps gebruikt en waar de problemen liggen, overweeg dan of de huidige ontwerpnormen en conventies van deze platforms echt werken voor Eric. Zijn er conventies die het moeilijk voor hem maken om te communiceren zoals hij dat wil? Als dat zo is, aarzel dan niet om die conventies te negeren en iets nieuws te proberen.
+
+### Prioritise identity
+
+Betrek Eric actief in het ontwerpproces. Ontwerp niet alleen voor hem, maar ook met hem. Dit kan betekenen dat je prototypes maakt en deze met Eric test, zijn feedback en ideeën opneemt en het ontwerp iteratief aanpast op basis van zijn input.
+
+### Add nonsense
+
+Probeer op een hoger conceptueel niveau te denken dan alleen functionaliteit. Dit kan betekenen dat je speelse, verrassende of anderszins niet-standaard elementen aan de interface toevoegt die Eric misschien plezierig, interessant of nuttig vindt. Dit kan ook betekenen dat je nieuwe en innovatieve manieren bedenkt om Eric te helpen communiceren op de manier die hij wil.
