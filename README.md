@@ -10,10 +10,6 @@ Voor het plaatsen van foto's in een app of website zijn verschillende handelinge
 
 "Hoe kan de interface van sociale media apps worden aangepast om gebruikers met motorische beperkingen beter te ondersteunen bij het uploaden en plaatsen van foto's?"
 
-## Oplossing
-
-Een makkelijke manier om Eric en anderen die moeite hebben met bewegen te helpen, is door gebruik te maken van stemherkenning. Dit betekent dat ze tegen de app kunnen praten om dingen te doen, zoals het bewerken van foto's. Hiermee kan Eric gewoon zeggen wat hij wil doen, zoals een foto kiezen, deze bewerken en vervolgens plaatsen, zonder dat hij iets hoeft aan te raken. Deze oplossing maakt de app veel makkelijker te gebruiken voor mensen zoals Eric. Het helpt niet alleen mensen met bewegingsproblemen, maar kan het gebruik van de app ook makkelijker maken voor iedereen.
-
 ## User scenario
 
 ### Persona:
@@ -42,3 +38,7 @@ Eric zit in zijn comfortabele stoel in zijn woonkamer, klaar om een foto te dele
 ### Resultaten:
 
 Eric heeft met enige moeite een foto kunnen posten op zijn favoriete sociale media app. Hoewel hij tevreden is met het resultaat, zou hij graag zien dat het proces makkelijker en minder tijdrovend zou zijn.
+
+## Oplossing
+
+Een makkelijke manier om Eric en anderen die moeite hebben met bewegen te helpen, is door gebruik te maken van stemherkenning. Dit betekent dat ze tegen de app kunnen praten om dingen te doen, zoals het bewerken van foto's. Hiermee kan Eric gewoon zeggen wat hij wil doen, zoals een foto kiezen, deze bewerken en vervolgens plaatsen, zonder dat hij iets hoeft aan te raken. Deze oplossing maakt de app veel makkelijker te gebruiken voor mensen zoals Eric. Het helpt niet alleen mensen met bewegingsproblemen, maar kan het gebruik van de app ook makkelijker maken voor iedereen.
