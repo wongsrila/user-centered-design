@@ -1,7 +1,27 @@
-/* Ensure the size of the image fit the container perfectly */
-img {
-  display: block;
+.label {
+  cursor: pointer;
+}
 
-  /* This rule is very important, please don't ignore this */
-  max-width: 50vw;
+.progress {
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.alert {
+  display: none;
+}
+
+.img-container img {
+  max-width: 100%;
+}
+
+#result {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+canvas {
+  height: 10rem;
 }

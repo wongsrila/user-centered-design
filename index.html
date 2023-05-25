@@ -4,25 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap@4/dist/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/node_modules/cropperjs/src/css/cropper.css" />
     <title>Vite App</title>
   </head>
   <body>
-    <div>
+    <!-- <div>
       <img id="image" src="/image.jpeg" />
     </div>
 
-    <butto class="ratio2">16/9</butto>
+    <div id="result">
+      <img />
+    </div>
+    <button class="crop-btn">crop</button> -->
 
-    <div id="vwrap"></div>
+    <div class="container">
+      <h1>Upload cropped image to server</h1>
+      <p>
+        Please note that the image will be uploaded to a
+        <a href="https://jsonplaceholder.typicode.com/"
+          >third-party fake API server</a
+        >, which means that the upload process will sometimes fail.
+      </p>
+      <label class="label" data-toggle="tooltip" title="Change your avatar">
+        <img
+          class="rounded"
+          id="avatar"
+          src="https://avatars0.githubusercontent.com/u/3456749?s=160"
+          alt="avatar"
+        />
+        <input
+          type="file"
+          class="sr-only"
+          id="input"
+          name="image"
+          accept="image/*"
+        />
+      </label>
+      <div class="alert" role="alert"></div>
+      <div
+        class="modal fade"
+        id="modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel">Crop the image</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="img-container">
+                <img
+                  id="image"
+                  src="https://avatars0.githubusercontent.com/u/3456749"
+                />
+              </div>
+            </div>
+            <div id="result" class="img-container">
+              <img />
+            </div>
+            <div class="modal-footer">
+              <div id="vwrap"></div>
+              <input type="button" id="vbtn" value="Loading" disabled />
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cancel
+              </button>
+              <button type="button" class="btn btn-primary" id="crop">
+                Crop
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <input type="button" id="vbtn" value="Loading" disabled />
-
+    <script
+      src="https://unpkg.com/jquery@3/dist/jquery.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/bootstrap@4/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       type="module"
       src="/node_modules/cropperjs/src/js/cropper.js"
     ></script>
     <script type="module" src="/main.js"></script>
-    <!-- <script src="/voice-command.js"></script> -->
   </body>
 </html>
