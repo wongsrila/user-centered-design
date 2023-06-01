@@ -101,6 +101,16 @@ Test het hele proces van het selecteren, bewerken en posten van een foto. Hoe ma
 
 Vraag Eric naar zijn algemene ervaring met de app. Wat vindt hij prettig? Wat zou hij verbeterd willen zien?
 
+## Testverslag
+
+Tijdens de testsessie heb ik Eric geïntroduceerd aan mijn applicatie, die ontworpen is om foto's te bewerken met stembediening. Het concept van de app werd uitgelegd en Eric kreeg instructies over hoe hij de foto kon bewerken. In plaats van gedetailleerde instructies te geven, gaf ik hem algemene taken zoals "zoom in op de foto" om te evalueren of de functionaliteit van de app intuïtief genoeg was.
+
+Tijdens de test bleek dat de stembediening commando's niet duidelijk genoeg waren. Eric had moeite met het raden van de juiste commando's voor verschillende functies, een cruciaal aspect van de app. Dit suggereert dat de app een betere handleiding of intuïtievere commando's nodig heeft.
+
+Wat opviel was dat Eric vaak zijn pen gebruikte om de app te bedienen, wat suggereert dat de touch-gebaseerde elementen van de app relatief gebruiksvriendelijk zijn. Echter, Eric merkte op dat sommige processen langdurig waren, vooral bij het precies uitvoeren van taken zoals het draaien van een foto. Hij suggereerde dat het handig zou zijn als er zowel een "basic" als een "expert" modus was. De expert modus zou gebruikers in staat stellen om specifieke commando's uit te voeren, zoals het instellen van het aantal graden dat een foto moet draaien of het precies specificeren van de hoeveelheid zoom.
+
+Daarnaast werd er feedback gegeven over mogelijke toekomstige uitbreidingen voor de app. Eric suggereerde dat het nuttig zou zijn om met meerdere lagen te kunnen werken en kleureffecten toe te voegen. Ondanks de genoemde verbeterpunten, was Eric over het algemeen positief over het concept van de app.
+
 ## Bronnen
 
 [https://github.com/fengyuanchen/cropperjs/blob/main/README.md](https://github.com/fengyuanchen/cropperjs/blob/main/README.md)
