@@ -13,15 +13,6 @@
     <title>Vite App</title>
   </head>
   <body>
-    <!-- <div>
-      <img id="image" src="/image.jpeg" />
-    </div>
-
-    <div id="result">
-      <img />
-    </div>
-    <button class="crop-btn">crop</button> -->
-
     <div class="container">
       <h1>Image editor</h1>
       <p>Upload Image & edit with speech recognition</p>
@@ -30,6 +21,7 @@
         <input type="file" id="input" name="image" accept="image/*" />
       </label>
       <div class="alert" role="alert"></div>
+
       <div
         class="modal fade"
         id="modal"
@@ -38,7 +30,7 @@
         aria-labelledby="modalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-sm" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="modalLabel">Crop the image</h5>
@@ -67,13 +59,24 @@
               <button type="button" class="btn btn-primary" id="zoomOutBtn">
                 Zoom Out
               </button>
-              <button type="button" class="btn btn-primary" id="moveLefBtn">
+              <button type="button" class="btn btn-primary" id="moveLeftBtn">
                 move left
               </button>
             </div>
-            <div id="result" class="img-container">
-              <img />
-            </div>
+
+            <h3>Available Commando's</h3>
+            <ul>
+              <li>"Rotate"</li>
+              <li>"Zoom in"</li>
+              <li>"Zoom out"</li>
+              <li>"Move left"</li>
+              <li>"Move right"</li>
+              <li>"Flip horizontal"</li>
+              <li>"Flip vertical"</li>
+              <li>"Flip reset"</li>
+              <li>"Reset"</li>
+            </ul>
+
             <div class="modal-footer">
               <div id="vwrap"></div>
               <input

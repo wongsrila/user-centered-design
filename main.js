@@ -1,18 +1,18 @@
 var voice = {
-  // (A) INIT VOICE COMMAND
+  // INIT VOICE COMMAND
   wrap: null, // html demo <div> wrapper
   btn: null, // html demo button
   recog: null, // speech recognition object
   init: () => {
-    // (A1) GET HTML ELEMENTS
+    // GET HTML ELEMENTS
     voice.wrap = document.getElementById('vwrap');
     voice.btn = document.getElementById('vbtn');
 
-    // (A2) GET MIC ACCESS PERMISSION
+    // GET MIC ACCESS PERMISSION
     navigator.mediaDevices
       .getUserMedia({ audio: true })
       .then((stream) => {
-        // (A3) SPEECH RECOGNITION OBJECT & SETTINGS
+        // SPEECH RECOGNITION OBJECT & SETTINGS
         const SpeechRecognition =
           window.SpeechRecognition || window.webkitSpeechRecognition;
         voice.recog = new SpeechRecognition();
@@ -20,7 +20,7 @@ var voice = {
         voice.recog.continuous = false;
         voice.recog.interimResults = false;
 
-        // (A4) ON SPEECH RECOGNITION - RUN CORRESPONDING COMMAND
+        // ON SPEECH RECOGNITION - RUN CORRESPONDING COMMAND
         voice.recog.onresult = (evt) => {
           let said = evt.results[0][0].transcript.toLowerCase();
           if (cmd[said]) {
@@ -32,10 +32,10 @@ var voice = {
           voice.stop();
         };
 
-        // (A5) ON SPEECH RECOGNITION ERROR
+        // ON SPEECH RECOGNITION ERROR
         voice.recog.onerror = (err) => console.error(evt);
 
-        // (A6) READY!
+        // READY!
         voice.btn.disabled = false;
         voice.stop();
       })
@@ -45,7 +45,7 @@ var voice = {
       });
   },
 
-  // (B) START SPEECH RECOGNITION
+  // START SPEECH RECOGNITION
   start: () => {
     voice.recog.start();
     voice.btn.onclick = voice.stop;
@@ -115,10 +115,6 @@ window.addEventListener('DOMContentLoaded', function () {
       cropper = new Cropper(image, {
         viewMode: 1,
         center: true,
-        // crop(event) {
-        //   result.innerHTML = '';
-        //   result.appendChild(cropper.getCroppedCanvas());
-        // },
         ready() {
           cmd = {
             'zoom in': () => {
@@ -154,21 +150,17 @@ window.addEventListener('DOMContentLoaded', function () {
               this.cropper.reset();
             },
           };
-          document
-            .querySelector('#rotateBtn')
-            .addEventListener('click', function () {
-              cropper.rotate(45);
-            });
+          document.querySelector('#rotateBtn').addEventListener('click', () => {
+            cropper.rotate(45);
+          });
 
-          document
-            .querySelector('#zoomInBtn')
-            .addEventListener('click', function () {
-              cropper.zoom(0.1);
-            });
+          document.querySelector('#zoomInBtn').addEventListener('click', () => {
+            cropper.zoom(0.1);
+          });
 
           document
             .querySelector('#zoomOutBtn')
-            .addEventListener('click', function () {
+            .addEventListener('click', () => {
               cropper.zoom(-0.1);
             });
         },
